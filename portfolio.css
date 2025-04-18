@@ -71,7 +71,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 .logo {
@@ -125,14 +125,6 @@ header {
     width: 50%;
 }
 
-.hero-content h1 {
-    font-size: 4rem;
-    margin-bottom: 20px;
-    color: #2c3e50;
-    padding: 50px;
-}
-
-
 .hero-image {
     width: 50%;
     text-align: center;
@@ -161,6 +153,7 @@ header {
 .hero h1 {
     font-size: 3.5rem;
     margin-bottom: 20px;
+;
     color: #2c3e50;
 }
 
@@ -229,8 +222,7 @@ header {
 
 /* Skills Section */
 .skills {
-    background-color: #fbfeff;
-    margin: 40px 40px;
+    background-color: #fff;
 }
 
 .skills-container {
@@ -240,13 +232,12 @@ header {
 }
 
 .skill-card {
-    background: #faf8f8;
+    background: #ebe7e7;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
     text-align: center;
     transition: transform 0.3s ease;
-    
 }
 
 .skill-card:hover {
@@ -264,19 +255,19 @@ header {
 .skill-card h3 {
     font-size: 1.5rem;
     margin-bottom: 15px;
-    color: #000912;
+    color: #000000;
 }
 
 .skill-card h3:hover{
-    color: #c80707;
+    color: #710909;
 }
 
 .skill-card p {
-    color: #011012;
+    color: #000000;
 }
 
 .skill-card p:hover{
-    color: #3f26ce;
+    color: #5d0f0f;
 }
 
 /* Projects Section */
