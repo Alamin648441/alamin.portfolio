@@ -71,7 +71,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .logo {
@@ -124,6 +124,14 @@ header {
 .hero-content {
     width: 50%;
 }
+
+.hero-content h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    padding: 50px;
+}
+
 
 .hero-image {
     width: 50%;
