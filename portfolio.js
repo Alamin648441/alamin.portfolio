@@ -35,10 +35,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 const contactForm = document.getElementById('contactForm');
 
 contactForm.addEventListener('submit', function(e) {
-    e.preventDefault();
-    
-    // In a real project, you would send this data to a server
-    // For now, we'll just display an alert
+  
     alert('Thank you for your message! I will get back to you soon.');
     contactForm.reset();
 });
