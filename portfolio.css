@@ -121,12 +121,12 @@ header {
 .hero .container {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* দুই পাশের content রাখার জন্য */
+    justify-content: space-between; 
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-    flex-wrap: wrap; /* responsive জন্য */
+    flex-wrap: wrap; 
 }
 
 .hero-content {
