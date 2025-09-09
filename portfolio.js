@@ -66,7 +66,7 @@ text1.split("").forEach((char, i) => {
   const span = document.createElement("span");
   span.textContent = char === " " ? "\u00A0" : char; // preserve spaces
   span.classList.add("paragraph-letter");
-  span.style.animationDelay = `${i * 0.05}s`; // stagger timing
+  span.style.animationDelay = `${i * 0.02}s`; // stagger timing
   paragraph.appendChild(span);
 });
 
